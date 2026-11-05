@@ -1,0 +1,17 @@
+# Footage shows real people: never commit it, or anything cut from it.
+*.mp4
+*.mov
+*.avi
+*.mkv
+outputs/*/clips/
+
+# Model weights (downloaded automatically on first run)
+*.pt
+*.onnx
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

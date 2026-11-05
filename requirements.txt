@@ -1,0 +1,6 @@
+# torch is installed separately by setup_windows.bat (the small CPU-only build).
+ultralytics>=8.3,<9
+opencv-python>=4.9
+numpy>=1.24
+lap>=0.5.12        # used by the person tracker (ByteTrack)
+pytest>=8
